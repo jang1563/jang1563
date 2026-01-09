@@ -77,19 +77,6 @@ This finding directly informed my understanding of how to deploy AI in research 
 ---
 
 <details>
-<summary><h2>🧬 Selected Publications</h2></summary>
-
-| Publication | Journal | Impact |
-|-------------|---------|--------|
-| **Space Omics and Medical Atlas (SOMA)** | *Nature Portfolio* (2024-2026) | Multi-omics profiling of commercial astronaut missions |
-| **Brain somatic mutations in epilepsy** | *Nature Medicine* / *Nature Communications* | Identified eIF4E pathway, patent technology-transferred |
-| **MDH inhibitors for lung cancer** | *Nature Communications* | Patent with milestone payments achieved |
-
-</details>
-
----
-
-<details>
 <summary><h2>💡 Philosophy</h2></summary>
 
 > Current AI operates like a *highly capable but amnesic postdoc*—brilliant in the moment but unable to connect insights across experimental iterations. Language models learn from text that *describes* biology; they don't learn biology *itself*.
