@@ -41,9 +41,9 @@ I study how extreme conditions—from spaceflight to disease—reveal fundamenta
 
 | Project | Description | Key Finding |
 |---------|-------------|-------------|
-| [**SpaceOmicsBench**](https://github.com/jang1563/SpaceOmicsBench) | 115-task multi-modal benchmark for spaceflight biomedical data | Claude Opus achieves 4.45/5.00 overall; +2.6% over Sonnet on complex integration |
+| [**SpaceOmicsBench**](https://github.com/jang1563/SpaceOmicsBench) | 115-task multi-modal benchmark for spaceflight biomedical data | Best model scores 4.45/5.00 overall; 9 models evaluated across 5 dimensions |
 | [**BioEval**](https://github.com/jang1563/BioEval) | Tests if LLMs can *do* biology, not just *know* biology | Prompt enhancements improve adversarial robustness from 62.5% → 83.3% |
-| CAMELOT | Multi-tissue transcriptomic reasoning benchmark | Both Claude models pass (82%); Sonnet shows +10% better adversarial robustness |
+| CAMELOT | Multi-tissue transcriptomic reasoning benchmark | Top models achieve 82% composite; adversarial robustness varies by +10% across model families |
 | Kaempferol Benchmark | RAG necessity proof for domain-specific AI | Factual accuracy: 51% → 100% with context; only 3% hallucination rate |
 
 ### Foundation Models & ML
@@ -58,7 +58,7 @@ I study how extreme conditions—from spaceflight to disease—reveal fundamenta
 
 ## 📊 Key Insight from Benchmarking
 
-> **LLMs reason about biology better than they recall domain-specific facts** (86% vs 51%), but this gap closes with RAG. More importantly, Claude shows only 3% hallucination rate, preferring honest uncertainty—exactly what scientific AI needs.
+> **LLMs reason about biology better than they recall domain-specific facts** (86% vs 51%), but this gap closes with RAG. Notably, the best-performing models show only 3% hallucination rate, preferring honest uncertainty—exactly what scientific AI needs.
 
 This finding directly informed my understanding of how to deploy AI in research workflows.
 
