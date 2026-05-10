@@ -35,7 +35,7 @@ I work on the **calibrated permissioning frontier of biological AI safeguards**:
 | Project | Artifact | Status |
 |---|---|---|
 | [**constitutional-bioguard**](https://github.com/jang1563/constitutional-bioguard) ([HF](https://huggingface.co/jang1563/constitutional-bioguard-deberta-v1)) | DeBERTa-v3-base, 4,500 synthetic examples, 7 NSABB categories | F1=0.980, AUROC=0.998, 0/325 over-refusal FPR; 9.79% mean ASR. Domain-extension prototype, not production-equivalent |
-| [**agentshield**](https://github.com/jang1563/agentshield) ([HF](https://huggingface.co/datasets/jang1563/agentshield-attack-scenarios)) | STRIDE threat model + 100-scenario attack suite | 96% detection rate (100% direct injection / multi-turn / tool misuse; 84% indirect injection); 0/100 FPR on benign queries |
+| [**agentshield**](https://github.com/jang1563/agentshield) ([HF](https://huggingface.co/datasets/jang1563/agentshield-attack-scenarios)) | STRIDE threat model + 100-scenario attack suite | 96% detection rate (100% direct injection / multi-turn / tool misuse; 84% indirect injection); 1/100 FPR on benign queries (Wilson 95% CI [0.2%, 5.5%]) |
 | [**narrow-model-safety-eval**](https://github.com/jang1563/narrow-model-safety-eval) ([HF](https://huggingface.co/datasets/jang1563/narrow-model-safety-eval)) | Protein FM safety: FSPE / FSI metrics + Physical Realizability Tier system | ESM-2 / ProteinMPNN / EvoDiff / LigandMPNN evaluated; AUROC=0.994 (BoNT-A separability) |
 
 ### Active Research (Under Review, May 2026)
