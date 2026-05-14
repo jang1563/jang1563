@@ -8,6 +8,7 @@
 [![ORCID](https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0000-0002-8733-9925)
 [![HuggingFace](https://img.shields.io/badge/🤗%20HuggingFace-FFD21E?style=for-the-badge)](https://huggingface.co/jang1563)
 [![Live Demo](https://img.shields.io/badge/🤗%20Space-bio--overrefusal--explorer-7E22CE?style=for-the-badge)](https://huggingface.co/spaces/jang1563/bio-overrefusal-explorer)
+[![Portfolio Site](https://img.shields.io/badge/🌐%20Portfolio-jang1563.github.io-2563EB?style=for-the-badge)](https://jang1563.github.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jangkeun-kim-16a74b19b/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jak4013@med.cornell.edu)
 
@@ -41,6 +42,7 @@ Every anchor repo has a five-section [`SAFETY.md`](https://github.com/jang1563/b
 | [**bio-overrefusal-v0.1**](https://github.com/jang1563/bio-overrefusal-v0.1) ([HF](https://huggingface.co/datasets/jang1563/bio-overrefusal-v0.1)) | 201-query expert-annotated dataset, 9-model FPR (Wilson 95% CI) | Anthropic Sonnet 4.5/4.6 refuses **33.7%**, Opus 4.7 **43.6%** of legitimate biology queries; non-Anthropic providers ≤0.5% |
 | [**ambiguity-casebook**](https://github.com/jang1563/ambiguity-casebook) ([HF](https://huggingface.co/datasets/jang1563/ambiguity-casebook)) | 36 dual-use cases × 6 categories (NSABB / FSAP / BWC / CWC anchored) | 30/36 cases trigger API-level refusals before model reasoning engages |
 | [**bio-constitution-rules**](https://huggingface.co/datasets/jang1563/bio-constitution-rules) | 30 rules × 6 bio domains, 1,063 labeled records | 86.7% 5-fold CV (+26 pp vs generic CBRN baseline) |
+| [**negbiodb-safety-calibration**](https://github.com/jang1563/negbiodb-safety-calibration) | 5-domain × 2-provider × 2-prompt aggregate (N=4,000), PBS-stratified | Domain-conditional abstention, no hard refusals; IDK rate non-monotonic in PBS. Companion to NegBioDB / P8A NeurIPS 2026 D&B submission |
 
 ### Classifier + Mitigation Stack
 
