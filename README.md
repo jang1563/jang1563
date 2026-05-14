@@ -7,6 +7,7 @@
 [![Google Scholar](https://img.shields.io/badge/Google%20Scholar-4285F4?style=for-the-badge&logo=google-scholar&logoColor=white)](https://scholar.google.com/citations?user=07hptXkAAAAJ)
 [![ORCID](https://img.shields.io/badge/ORCID-A6CE39?style=for-the-badge&logo=orcid&logoColor=white)](https://orcid.org/0000-0002-8733-9925)
 [![HuggingFace](https://img.shields.io/badge/🤗%20HuggingFace-FFD21E?style=for-the-badge)](https://huggingface.co/jang1563)
+[![Live Demo](https://img.shields.io/badge/🤗%20Space-bio--overrefusal--explorer-7E22CE?style=for-the-badge)](https://huggingface.co/spaces/jang1563/bio-overrefusal-explorer)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jangkeun-kim-16a74b19b/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:jak4013@med.cornell.edu)
 
@@ -17,6 +18,17 @@
 ## Thesis
 
 I work on the **calibrated permissioning frontier of biological AI safeguards**: jointly minimizing false negatives (harmful assistance) and false positives (blocked legitimate research). My empirical finding (April 2026) is that no measured frontier model sits in the low-FPR / low-FNR region for biology-specific distributions. The portfolio below is built to close that gap.
+
+## Reviewer route in 15 minutes
+
+If you have only 15 minutes, this is the order I'd suggest:
+
+1. **(2 min)** Open the [bio-overrefusal-explorer Space](https://huggingface.co/spaces/jang1563/bio-overrefusal-explorer) — browse the 201-query benchmark and 9-model FPR with Wilson 95% CIs.
+2. **(5 min)** Read [`bio-overrefusal-v0.1`](https://github.com/jang1563/bio-overrefusal-v0.1) README + `SAFETY.md`. The "How This Maps to AI Safety Practice" section orients you to the broader stack.
+3. **(5 min)** Read [`constitutional-bioguard`](https://github.com/jang1563/constitutional-bioguard) README. Same pattern: thesis, status, AI-safety mapping, SAFETY.md.
+4. **(3 min)** Skim [`ambiguity-casebook`](https://github.com/jang1563/ambiguity-casebook) — 36 NSABB-anchored boundary cases under a 12-field template.
+
+Every anchor repo has a five-section [`SAFETY.md`](https://github.com/jang1563/bio-overrefusal-v0.1/blob/main/SAFETY.md) (in/out scope, withheld content, reporting, limitations) and a "How This Maps" section linking to the other 5 anchors.
 
 ---
 
