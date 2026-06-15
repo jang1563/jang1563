@@ -23,7 +23,7 @@ Most of my work is about whether we can trust what a model says about biology. T
 **Evaluation**
 - [`grounding-atlas`](https://github.com/jang1563/grounding-atlas) tests whether a model knows a molecule by its content or only by its name, across 17 representations.
 - [`verify-or-trust`](https://github.com/jang1563/verify-or-trust) and [`causalatlas`](https://github.com/jang1563/causalatlas) ask whether a model reasoning over a fallible perturbation model (GEARS, Arc STATE) knows when to trust it. Even the strongest models tend to over-verify rather than read the prediction's reliability.
-- [`GeneLab_benchmark`](https://github.com/jang1563/GeneLab_benchmark) finds that gene-expression foundation models do not transfer across spaceflight missions, where a simple classical baseline reaches AUROC 0.948.
+- [`GeneLab_benchmark`](https://github.com/jang1563/GeneLab_benchmark) finds that gene-expression foundation models do not transfer across spaceflight missions, while a simple classical baseline reaches AUROC 0.948.
 - [`SpaceOmicsBench`](https://github.com/jang1563/SpaceOmicsBench) is a multi-omics benchmark for spaceflight data: 21 ML tasks, 9 modalities, and a 100-question model evaluation.
 - [`narrow-model-safety-eval`](https://github.com/jang1563/narrow-model-safety-eval) looks at what two widely used protein models, ESM-2 and ProteinMPNN, encode and separate.
 - [`LabCraft-Eval`](https://github.com/jang1563/LabCraft-Eval) is a deterministic, non-LLM-judge grader for whether an agent can actually run a molecular-biology protocol.
