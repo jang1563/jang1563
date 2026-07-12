@@ -22,7 +22,7 @@ I build the evidence and evaluation layer for AI in biology: experiments that ge
 
 **Evaluation**
 - [`grounding-atlas`](https://github.com/jang1563/grounding-atlas) measures whether biological properties recoverable from model states are also expressed in model outputs across biological representations.
-- [`verify-or-trust`](https://github.com/jang1563/verify-or-trust) and [`causalatlas`](https://github.com/jang1563/causalatlas) study how a general model should trust, verify, or defer when using fallible perturbation-model outputs.
+- [`verify-or-trust`](https://github.com/jang1563/verify-or-trust) studies how a general model should trust, verify, or defer when using fallible perturbation-model outputs.
 - [`SpaceOmicsBench`](https://github.com/jang1563/SpaceOmicsBench) is a multi-omics benchmark for spaceflight data: 21 ML tasks, 9 modalities, and a 100-question model evaluation.
 - [`narrow-model-safety-eval`](https://github.com/jang1563/narrow-model-safety-eval) evaluates what representations from ESM-2 and ProteinMPNN encode and separate.
 
