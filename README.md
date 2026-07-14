@@ -27,7 +27,7 @@ I build the evidence and evaluation layer for AI in biology: experiments that ge
 - [`narrow-model-safety-eval`](https://github.com/jang1563/narrow-model-safety-eval) evaluates what representations from ESM-2 and ProteinMPNN encode and separate.
 
 **Negative evidence**
-- [NullAtlas / NegBioDB](https://huggingface.co/datasets/jang1563/NegBioDB) is a negative-results program selected for Anthropic's AI for Science program. Its current public release contains five domains and more than 64 million confirmed negative records for retrieval and verification research.
+- **NegBioDB / NullAtlas** is a private, release-gated biomedical negative-results research program supported by Anthropic's AI for Science program. Its public [`negbiodb-safety-calibration`](https://github.com/jang1563/negbiodb-safety-calibration) companion reports aggregate, non-record-level calibration results across five biomedical domains.
 
 **Post-training**
 - I build and diagnose SFT, DPO, GRPO, and QLoRA workflows for biological evaluation tasks. A recurring result is that some evidence is better supplied through retrieval and deterministic checks than treated as a weight-update problem.
