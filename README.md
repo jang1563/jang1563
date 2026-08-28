@@ -26,6 +26,7 @@ I build the evidence and evaluation layer for AI in biology: experiments that ge
 - [`causalatlas`](https://github.com/jang1563/causalatlas) tests when perturbation foundation models outperform simple baselines and how assay cost and scientific objectives shape their useful deployment regimes.
 - [`agentic-drug-discovery-system`](https://github.com/jang1563/agentic-drug-discovery-system) packages CTDBench v0.2, verifier contracts, and an audited retrospective discovery slice focused on sickle cell disease.
 - [`LabCraft-Eval`](https://github.com/jang1563/LabCraft-Eval) is an Inspect AI environment for evaluating tool-using agents on molecular microbiology protocols in a seeded laboratory simulator, with deterministic trajectory scoring.
+- [`sci-agent-verification-cascade`](https://github.com/jang1563/sci-agent-verification-cascade) is a testbed for a failure in scientific AI handoffs, where a claim loses its source, uncertainty, or required verification as it passes between agents, and tests a claim receipt plus a runtime gate against it.
 - [`SpaceOmicsBench`](https://github.com/jang1563/SpaceOmicsBench) is a multi-omics benchmark for spaceflight data: 21 ML tasks, 9 modalities, and a 100-question model evaluation.
 
 **Safety**
