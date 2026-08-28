@@ -2,7 +2,7 @@
 
 # JangKeun Kim, Ph.D.
 
-**Computational biologist working on evaluation, grounding, and post-training for AI in the life sciences**
+**Computational biologist working on evaluation, safety, and grounding for AI in the life sciences**
 
 **Weill Cornell Medicine · spaceflight, single-cell, and perturbation biology**
 
@@ -27,6 +27,14 @@ I build the evidence and evaluation layer for AI in biology: experiments that ge
 - [`agentic-drug-discovery-system`](https://github.com/jang1563/agentic-drug-discovery-system) packages CTDBench v0.2, verifier contracts, and an audited retrospective discovery slice focused on sickle cell disease.
 - [`LabCraft-Eval`](https://github.com/jang1563/LabCraft-Eval) is an Inspect AI environment for evaluating tool-using agents on molecular microbiology protocols in a seeded laboratory simulator, with deterministic trajectory scoring.
 - [`SpaceOmicsBench`](https://github.com/jang1563/SpaceOmicsBench) is a multi-omics benchmark for spaceflight data: 21 ML tasks, 9 modalities, and a 100-question model evaluation.
+
+**Safety**
+- [`narrow-model-safety-eval`](https://github.com/jang1563/narrow-model-safety-eval) asks whether narrow scientific models encode actionable biology, measuring ESM-2 and ProteinMPNN directly rather than testing whether a chat model refuses text.
+- [`bio-overrefusal-v0.1`](https://github.com/jang1563/bio-overrefusal-v0.1) measures the opposite failure with 201 domain-expert-authored, tier-annotated research queries, so the cost of refusing legitimate work is quantified alongside the cost of answering.
+- [`llm-sfm-safety-eval`](https://github.com/jang1563/llm-sfm-safety-eval) evaluates refusal calibration when a general model interprets science foundation model outputs, across 24.3K outcome records.
+- [`bio-sfm-trust-audit`](https://github.com/jang1563/bio-sfm-trust-audit) audits trust routing where a general LLM sits above specialist protein, genome, and single-cell models and has to decide what to accept.
+- [`protein-label-integrity-eval`](https://github.com/jang1563/protein-label-integrity-eval) tests whether a model notices a hazardous sequence stored under a benign-looking label, across five Claude versions.
+- [`constitutional-bioguard`](https://github.com/jang1563/constitutional-bioguard) is a leakage-clean harness for biosafety guard models and an honest case study: the guard trained here is Pareto-dominated by a smaller open model, and the repository says so.
 
 **Negative evidence**
 - **NegBioDB / NullAtlas** is a private, release-gated biomedical negative-results research program supported by Anthropic's AI for Science program. Its public [`negbiodb-safety-calibration`](https://github.com/jang1563/negbiodb-safety-calibration) companion reports aggregate, non-record-level calibration results across five biomedical domains.
